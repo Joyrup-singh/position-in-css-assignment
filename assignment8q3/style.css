@@ -1,0 +1,12 @@
+.picture{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius:5px;
+    height: 200px;
+}
+.picture-1{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}

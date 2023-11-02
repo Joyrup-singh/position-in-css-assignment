@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference Absolute And Relative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Absolute</th>
+            <th>Relative</th>
+        </tr>
+        <tr>
+            <td>The element is positioned absolutely to its first positioned parent.</td>
+            <td>The element is positioned relative to its normal position.</td>
+        </tr>
+        <tr>
+            <td>Syntax:position: absolute;</td>
+            <td>Syntax:position: relative;</td>
+        </tr>
+        <tr>
+            <td>The element is positioned nearest to the first relatively or absolutely positioned parent element.</td>
+            <td>When an attribute left:20px is added the element moves 20px to the right from its normal position. The element effects no other element on the layout. Other content will not be adjusted to fit into any gap left by the element.</td>
+        </tr>
+        <tr>
+            <td>When there is no parent element the absolutely positioned element is positioned directly to the HTML page itself</td>
+            <td>The child of this element can be positioned within this block only. So position:relative has its limitations.</td>
+        </tr>
+    </table>
+</body>
+</html>
